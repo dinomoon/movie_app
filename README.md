@@ -10,3 +10,7 @@
 - react application은 하나의 component만 렌더링 할 수 있다. 그래서 component안에 component를 넣어야 한다.
 
 ### Reusable Components with JSX + Props
+
+### Dynamic Component Generation
+
+- map함수
