@@ -14,3 +14,8 @@
 ### Dynamic Component Generation
 
 - map함수
+
+### Protection with PropTypes
+
+- npm i prop-types
+- prop의 타입 등등을 미리 적어 놓음으로써 에러를 예방할 수 있다.
