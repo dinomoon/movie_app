@@ -19,3 +19,8 @@
 
 - npm i prop-types
 - prop의 타입 등등을 미리 적어 놓음으로써 에러를 예방할 수 있다.
+
+### Class Components and State
+
+- 동적으로 데이터를 다루기 위해서는 Prop이 아니라 State를 사용해야한다.
+- 그런데 State를 사용하기 위해서는 App을 function이 아니라 class로 사용해야한다.
