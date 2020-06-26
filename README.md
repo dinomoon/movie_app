@@ -30,3 +30,9 @@
 - State의 값을 변경하려면 setState를 사용해야한다. 그냥 바꾸면 render가 일어나지 않아서 변경이 안된다.
 - setState를 부르면 State의 값이 변경되고 다시 render한다.
 - react에서 제공하는 current를 이용해 State값을 바꾸는 것이 성능에 좋다.
+
+### Component Life Cycle
+
+- Mounting: constructor(), render(), componentDidMount()
+- Updating: ~, render(), componentDidUpdate()
+- UnMounting: componentWillUnmount()
