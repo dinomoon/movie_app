@@ -36,3 +36,7 @@
 - Mounting: constructor(), render(), componentDidMount()
 - Updating: ~, render(), componentDidUpdate()
 - UnMounting: componentWillUnmount()
+
+### Planning the Movie Component
+
+- Life Cycle을 이용해서 movie를 모두 fetch하면 영화를 보여주게 하기
