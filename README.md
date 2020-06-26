@@ -40,3 +40,8 @@
 ### Planning the Movie Component
 
 - Life Cycle을 이용해서 movie를 모두 fetch하면 영화를 보여주게 하기
+
+### Fetching Movies from API
+
+- axios
+- yts (불법사이트..?)
