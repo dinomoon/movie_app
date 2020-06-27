@@ -51,3 +51,7 @@
 ### Styling the movies
 
 ### Adding Genres
+
+### CSS and cutting the summary
+
+- {summary.slice(0, 180)}...

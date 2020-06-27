@@ -1,3 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
 body {
   background-color: antiquewhite;
+}
+
+.movie__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.movie {
+  display: flex;
+  width: 40%;
+  /* height: 100%; */
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+  .movie {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .movie {
+    display: block;
+  }
+  .movie__img {
+    margin-bottom: 20px;
+  }
 }
