@@ -49,3 +49,5 @@
 ### Rendering the Movies
 
 ### Styling the movies
+
+### Adding Genres
