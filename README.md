@@ -63,3 +63,5 @@
   - 반드시 소문자!
 - "deploy": "gh-pages -d build"
 - "predeploy": "npm run build"
+
+### Getting ready for the Router
