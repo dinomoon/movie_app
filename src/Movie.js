@@ -1,8 +1,15 @@
-import React from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 
 function Movie({ id, year, title, summary, poster }) {
-  return <h1>{title}</h1>;
+  return (
+    <Fragment>
+      <img src={poster} alt={title} title={title}></img>
+      <h2>{title}</h2>
+      <strong>{year}</strong>
+      <p>{summary}</p>
+    </Fragment>
+  );
 }
 
 Movie.propTypes = {
