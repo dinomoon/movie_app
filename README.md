@@ -65,3 +65,7 @@
 - "predeploy": "npm run build"
 
 ### Getting ready for the Router
+
+### Building the Router
+
+- npm i react-router-dom
