@@ -55,3 +55,11 @@
 ### CSS and cutting the summary
 
 - {summary.slice(0, 180)}...
+
+### Deploying to Github pages
+
+- npm i gh-pages
+- "homepage": "https://dinomoon.github.io/movie_app"
+  - 반드시 소문자!
+- "deploy": "gh-pages -d build"
+- "predeploy": "npm run build"
