@@ -69,3 +69,8 @@
 ### Building the Router
 
 - npm i react-router-dom
+
+### Building the Navigation
+
+- a, href
+- Link, to
