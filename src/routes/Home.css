@@ -17,10 +17,30 @@ body {
   background-color: antiquewhite;
 }
 
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 0 0;
+}
+
+.nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 40px;
+  font-size: 13px;
+  background-color: #fff;
+}
+
+.nav a:first-child {
+  border-right: 1px solid #efefef;
+}
+
 .movie__container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 60px 0 100px 0;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
