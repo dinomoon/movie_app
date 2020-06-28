@@ -8,7 +8,7 @@ function Movie({ id, year, title, summary, poster, genres }) {
     <Fragment>
       <Link
         to={{
-          pathname: "/movie-detail",
+          pathname: `/movie/${id}`,
           state: {
             title,
             year,

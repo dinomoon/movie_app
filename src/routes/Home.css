@@ -38,7 +38,7 @@ body {
 }
 
 .movie__container {
-  max-width: 1200px;
+  max-width: 90vw;
   margin: 0 auto;
   padding: 60px 0 100px 0;
   display: flex;
@@ -55,6 +55,11 @@ body {
 
 .movie a {
   display: flex;
+}
+
+.about {
+  text-align: center;
+  padding: 60px 0 100px 0;
 }
 
 @media screen and (max-width: 960px) {

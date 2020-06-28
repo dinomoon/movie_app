@@ -34,3 +34,24 @@
 .movie__genre:last-child:after {
   content: "";
 }
+
+.movie__detail {
+  max-width: 40vw;
+  margin: 0 auto;
+  padding: 60px 0 100px 0;
+  text-align: center;
+}
+
+.movie__detail .movie__title {
+  margin-bottom: 20px;
+}
+
+.movie__detail img {
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  .movie_detail {
+    width: 100vw;
+  }
+}

@@ -78,3 +78,5 @@
 ### Sharing Props Between Routes
 
 - Link에 state를 담아서 보낼 수 있다.
+
+### Redirecting
